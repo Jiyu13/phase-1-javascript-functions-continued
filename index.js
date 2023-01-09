@@ -8,3 +8,11 @@ function saturdayFun(thingsToDo = "roller-skate") {
 const mondayWork = function(thingsToDo = "go to the office") {
     return `This Monday, I will ${thingsToDo}.`;
 }
+
+function wrapAdjective (wraps) {
+    return function(name = "Special") {
+        return `You are ${wraps}${name}${wraps}!`;   
+    }
+
+}
+
